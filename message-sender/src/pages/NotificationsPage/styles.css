@@ -1,0 +1,50 @@
+.notifications-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.notifications-page form {
+  display: flex;
+  max-width: 1000px;
+  flex-direction: column;
+}
+
+.notifications-page input {
+  margin-bottom: 16px;
+  height: 24px;
+}
+
+.notifications-page select {
+  height: 24px;
+}
+
+.notifications-page textarea {
+  margin-bottom: 16px;
+  height: 100px;
+  width: 400px;
+}
+
+.notifications-page button {
+  margin-top: 8px;
+  height: 24px;
+  color: cornflowerblue;
+  background-color: transparent;
+  border-color: cornflowerblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdowns-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  gap: 16px;
+}
+
+.dropdowns-wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}

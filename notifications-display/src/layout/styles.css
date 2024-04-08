@@ -1,0 +1,22 @@
+.nav-bar {
+  height: 30px;
+  display: flex;
+  padding: 20px 30px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cornflowerblue;
+}
+
+.nav-bar h3 {
+  color: #fff;
+}
+
+.nav-bar button {
+  background-color: #fff;
+  color: cornflowerblue;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

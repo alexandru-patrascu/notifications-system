@@ -1,0 +1,42 @@
+.notifications-page {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.notifications-wrapper {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.notification {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid gray;
+}
+
+.notification p {
+  margin: 0;
+  padding: 0;
+}
+
+.border-info {
+  border-color: #3498db;
+}
+
+.border-warning {
+  border-color: orange;
+}
+
+.border-error {
+  border-color: red;
+}
+
+.notification .date {
+  text-align: end;
+}
