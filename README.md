@@ -90,6 +90,6 @@ password: admin
 Notifications Display
 
 ```bash
-username: user
-password: user
+username: customer
+password: customer
 ```
